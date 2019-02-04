@@ -12,3 +12,8 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+.stockCard {
+  width:500px;
+  padding-top:100px;
+  margin: auto;
+}

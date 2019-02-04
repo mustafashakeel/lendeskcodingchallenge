@@ -1,0 +1,23 @@
+.StockListItem {
+  list-style: none;
+  display: flex;
+  padding-top:2rem;
+  margin-left: -2rem;
+  
+  text-align: left;
+  flex-flow: column wrap;
+  background-color: #fefefe;
+ }
+ .StockListItem div{
+  margin-bottom:1.5rem
+ }
+
+.StockListItem > * {
+  letter-spacing: 1px;
+  font-weight: 500;
+}
+.StockListItem > * span{
+  display: block;
+  color: #000000;
+  font-weight: 800;
+}
