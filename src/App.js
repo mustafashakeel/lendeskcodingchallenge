@@ -41,8 +41,7 @@ class App extends Component {
       })
       .catch(error => {
         console.log(error);
-        this.setState({ inputClass: "animated shake search red" });
-        setTimeout(() => this.setState({ inputClass: "search" }), 1000);
+        
       });
   };
   handleChange = (selectedOption) => {
